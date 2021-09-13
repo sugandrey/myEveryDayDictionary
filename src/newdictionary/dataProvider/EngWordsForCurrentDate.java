@@ -63,7 +63,7 @@ public class EngWordsForCurrentDate {
                 connection.setRequestMethod("POST");
                 connection.setRequestProperty("content-type", "application/x-www-form-urlencoded");
                 connection.setRequestProperty("accept-encoding", "application/gzip");
-                connection.setRequestProperty("x-rapidapi-key", "458dd53559msh873065e1d2db106p17d034jsn3e988107427b");
+                connection.setRequestProperty("x-rapidapi-key", "4");
                 connection.setRequestProperty("x-rapidapi-host", "google-translate1.p.rapidapi.com");
                 DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
                 dos.write(data);
@@ -129,7 +129,7 @@ public class EngWordsForCurrentDate {
 //                connection.setRequestMethod("POST");
 //                connection.setRequestProperty("content-type", "application/x-www-form-urlencoded");
 //                connection.setRequestProperty("accept-encoding", "application/gzip");
-//                connection.setRequestProperty("x-rapidapi-key", "458dd53559msh873065e1d2db106p17d034jsn3e988107427b");
+//                connection.setRequestProperty("x-rapidapi-key", "4");
 //                connection.setRequestProperty("x-rapidapi-host", "google-translate1.p.rapidapi.com");
 //
 //                DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
@@ -277,7 +277,7 @@ public class EngWordsForCurrentDate {
         connection.setRequestMethod("POST");
         connection.setRequestProperty("content-type", "application/x-www-form-urlencoded");
         connection.setRequestProperty("accept-encoding", "application/gzip");
-        connection.setRequestProperty("x-rapidapi-key", "458dd53559msh873065e1d2db106p17d034jsn3e988107427b");
+        connection.setRequestProperty("x-rapidapi-key", "4");
         connection.setRequestProperty("x-rapidapi-host", "google-translate1.p.rapidapi.com");
 
         DataOutputStream dos = new DataOutputStream(connection.getOutputStream());
